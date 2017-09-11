@@ -1,0 +1,61 @@
+<!DOCTYPE html >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Template using CSS </title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="style3"></div><div class="style_2">
+<span class="style3">
+	<script>
+var currentdate = new Date();
+//add +1 to date because it counts date from 0
+var datetime = "Date: " + currentdate.getDate() + "/"+(currentdate.getMonth()+1) 
++ "/" + currentdate.getFullYear() + "<br>Time: " 
++ currentdate.getHours() + ":" 
++ currentdate.getMinutes() + ":" + currentdate.getSeconds();
+document.write(datetime);
+</script>
+</span></div>
+<div id="wrap">
+<div id="topbar">
+  <div id="menus">
+  <ul id="topmenu">
+<li  class="active"><a href="#">Home</a>
+</li>
+<li><a onclick="changecolor()">Change BG</a></span>
+</li>
+<li><a href="#">Services</a>
+</li>
+<li><a href="#">products</a>
+</li>
+<li><a href="#">Services</a>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="header">
+</div>
+<div id="content">
+<div id="mainpage">
+<h2>Hello World</h2>
+<p><i><b>Some random text here: </b></i>
+	Work promoting Kainuu’s success brought the Good Work of the Year prize to Kajaani University of Applied Sciences.
+
+The prize was handed to the CEO and President of Kajaani University of Applied Sciences, Turo Kilpeläinen, during the local Chamber of Commerce’s Finance Seminar. The Kajaani Chamber of Commerce awarded the prize to the University of Applied Sciences for its extensive work, over a period of more than 20 years, in making Kainuu a success. According to the Chamber of Commerce, Kajaani AMK has succeeded in focusing its activities on growing sectors of industry in Kainuu, namely tourism, electronics, software, gaming and mechanical and mining engineering.
+
+</p>
+</div>
+
+<div class="clear"></div>
+</div>
+
+</div>
+<div id="footer">
+<p>Copyright &copy;
+<script type="text/javascript"> var ct=new Date(); document.write(ct.getFullYear());</script>
+</p>
+</div>
+</body>
+</html>
